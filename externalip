@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# get external IP address
+# used for outgoing Internet connections
+# see: https://github.com/rsp/scripts/blob/master/externalip.md
+
+case "$1" in
+    ""|dns)	dig +short myip.opendns.com @resolver1.opendns.com;;
+	http) curl -s http://whatismyip.akamai.com/;;
+	https) curl -s https://whatismyip.akamai.com/;;
+    *) echo Bad argument >&2; exit 1;;
+esac
+
