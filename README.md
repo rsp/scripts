@@ -28,7 +28,7 @@ Usage: `externalip [METHOD]`
 
 Get external IP address that is visible by servers that you connect to over Internet.
 
-METHOD can be: dns (default), http, https.
+METHOD can be: dns (default), http, https, ftp, telnet.
 
 See [externalip.md](internalip.md) for more info.
 

@@ -9,7 +9,7 @@ Get external IP address that is visible by servers that you connect to over Inte
 Note: this is not necessarily the same IP as the one that is used by your computer's network interface
 (for that use [internalip](internalip.md)).
 
-METHOD can be: dns (default), http, https.
+METHOD can be: dns (default), http, https, ftp, telnet.
 
 The http and https methods are using the `whatismyip.akamai.com` service that showed the best performance in all my tests (from Warsaw, Poland).
 
