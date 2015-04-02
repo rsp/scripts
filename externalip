@@ -6,7 +6,7 @@
 
 case "$1" in
     ""|dns)	dig +short myip.opendns.com @resolver1.opendns.com;;
-	http) curl -s http://whatismyip.akamai.com/;;
+	http) curl -s http://whatismyip.akamai.com/ && echo;;
 	https) curl -s https://ifcfg.me/;;
     *) echo Bad argument >&2; exit 1;;
 esac
