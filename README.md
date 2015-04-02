@@ -10,6 +10,11 @@ Some of those scripts were written as examples for
 
 Some are just for my own conveniece. Maybe they would be useful to someone else.
 
+Scripts
+-------
+### `privateip`
+Usage: `privateip [TARGET]`
+
 Installation
 ------------
 Most of those scripts should be stand-alone and can be copied in any place.
