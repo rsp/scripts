@@ -11,7 +11,8 @@ that would be used to connect to a given target.
 The TARGET is optional and by default it is `8.8.8.8`
 (which is the [Google's public DNS resolver](https://developers.google.com/speed/public-dns/docs/using)).
 
-Note: this is not necessarily the same IP as the public IP that you visible under while connecting to the Internet.
+Note: this is not necessarily the same IP as the public IP that you visible under while connecting to the Internet
+(for that use [externalip](externalip.md)).
 
 Unlike most of the solutions to get your IP from the output of programs like `ifconfig` or `hostname` that are usually recommended, often with a need to manually choose a network interface, this method has an advantage that the result is based on your routing tables and you get the IP address that is actually used to connect to a given target (the public Internet by default).
 
