@@ -5,11 +5,11 @@
 # see: https://github.com/rsp/scripts/blob/master/externalip.md
 
 case "$1" in
-    ""|dns)	dig +short myip.opendns.com @resolver1.opendns.com;;
-	http) curl -s http://whatismyip.akamai.com/ && echo;;
-	https) curl -s https://ifcfg.me/;;
-	ftp) echo close | ftp ifcfg.me | cut -d' ' -f4 | tr -d '\n' && echo
-	telnet) nc ifcfg.me 23 | grep IPv4 | cut -d' ' -f4
-    *) echo Bad argument >&2; exit 1;;
+	""|dns)	dig +short myip.opendns.com @resolver1.opendns.com ;;
+	http) curl -s http://whatismyip.akamai.com/ && echo ;;
+	https) curl -s https://ifcfg.me/ ;;
+	ftp) echo close | ftp ifcfg.me | cut -d' ' -f4 | tr -d '\n' && echo ;;
+	telnet) nc ifcfg.me 23 | grep IPv4 | cut -d' ' -f4 ;;
+	*) echo Bad argument >&2 && exit 1 ;;
 esac
 
