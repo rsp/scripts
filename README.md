@@ -10,6 +10,28 @@ Some of those scripts were written as examples for
 
 Some are just for my own conveniece. Maybe they would be useful to someone else.
 
+Installation
+------------
+Most of those scripts should be stand-alone and can be copied in any place.
+
+My recommendation is to make a `~/bin` or `~/scripts` directory:
+```
+mkdir ~/bin
+```
+and put this in your `~/.bashrc` or `~/.profile`:
+```
+[ -d "$HOME/bin" ] && PATH="$HOME/bin:$PATH"
+```
+That way it's seasy to put any script there:
+```
+cd ~/bin
+wget https://rawgit.com/rsp/scripts/master/example
+less example # see what was downloaded
+chmod a+x example
+```
+And use it at will.
+Of course always see what was downloaded first.
+
 Author
 ------
 Rafał Pocztarski - https://github.com/rsp
