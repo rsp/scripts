@@ -22,7 +22,7 @@ and put this in your `~/.bashrc` or `~/.profile`:
 ```
 [ -d "$HOME/bin" ] && PATH="$HOME/bin:$PATH"
 ```
-That way it's seasy to put any script there:
+That way it's easy to put any script there:
 ```
 cd ~/bin
 wget https://rawgit.com/rsp/scripts/master/example
