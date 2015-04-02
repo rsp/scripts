@@ -16,5 +16,5 @@ Note: this is not necessarily the same IP as the public IP that you visible unde
 Unlike most of the solutions to get your IP from the output of programs like `ifconfig` or `hostname` that are usually recommended, often with a need to manually choose a network interface, this method has an advantage that the result is based on your routing tables and you get the IP address that is actually used to connect to a given target (the public Internet by default).
 
 The idea was taken from
-[this Stack Overflow answer](http://stackoverflow.com/questions/13322485/how-to-i-get-the-primary-ip-address-of-the-local-machine-on-linux-and-os-x#25851186)
-by [Collin Anderson](http://stackoverflow.com/users/131881/collin-anderson).
+[this Stack Overflow answer](https://stackoverflow.com/questions/13322485/how-to-i-get-the-primary-ip-address-of-the-local-machine-on-linux-and-os-x#25851186)
+by [Collin Anderson](https://stackoverflow.com/users/131881/collin-anderson).
