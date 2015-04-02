@@ -12,8 +12,11 @@ Some are just for my own conveniece. Maybe they would be useful to someone else.
 
 Scripts
 -------
-### `privateip`
-Usage: `privateip [TARGET]`
+### `internalip`
+Usage: `internalip [TARGET]`
+Get internal IP address used for outgoing Internet connections.
+
+See [internalip.md](internalip.md) for more info.
 
 Installation
 ------------
