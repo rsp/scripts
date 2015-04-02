@@ -44,7 +44,7 @@ do
 	for protocol in http https
 	do
 	    purl="$protocol:$url"
-	    cout=$(curl -m10 -L -skw "~over $protocol:\t%{time_total}s\n" $purl | tr -d '\n')
+	    cout=$(curl -m10 -L -sw "~over $protocol:\t%{time_total}s\n" $purl | tr -d '\n')
 	    echo $cout
 	    answer=$(echo $cout | cut -d'~' -f1)
 	    stats=$(echo $cout | cut -d'~' -f1)
