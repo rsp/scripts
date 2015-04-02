@@ -1,8 +1,8 @@
 #!/bin/sh
 
-# get private IP address
+# get internal IP address
 # used for outgoing Internet connections
-# see: https://github.com/rsp/scripts/blob/master/privateip.md
+# see: https://github.com/rsp/scripts/blob/master/internalip.md
 
 [ -n "$1" ] && t=$1 || t='8.8.8.8'
 
