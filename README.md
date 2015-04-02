@@ -5,6 +5,8 @@ https://github.com/rsp/scripts
 Random shell scripts for different tasks.
 Mostly for Linux.
 
+Work in progress - more to come.
+
 Some of those scripts were written as examples for
 [my answers on Stack Exchange](https://stackexchange.com/users/303952/rsp).
 
@@ -17,7 +19,18 @@ Usage: `internalip [TARGET]`
 
 Get internal IP address used for outgoing Internet connections.
 
+TARGET is an IP address, `8.8.8.8` by default.
+
 See [internalip.md](internalip.md) for more info.
+
+### `externalip`
+Usage: `externalip [METHOD]`
+
+Get external IP address that is visible by servers that you connect to over Internet.
+
+METHOD can be: dns (default), http, https.
+
+See [externalip.md](internalip.md) for more info.
 
 Installation
 ------------
