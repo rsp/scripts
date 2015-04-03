@@ -7,8 +7,10 @@ Mostly for Linux.
 
 Work in progress - more to come.
 
-Some of those scripts were written as examples for
-[my answers on Stack Exchange](https://stackexchange.com/users/303952/rsp).
+Some of those scripts were written for
+[my answers on Stack Exchange](https://stackexchange.com/users/303952/rsp):
+
+* [How can I get my external IP address in bash?](https://unix.stackexchange.com/questions/22615/how-can-i-get-my-external-ip-address-in-bash/194136#194136)
 
 Some are just for my own conveniece. Maybe they would be useful to someone else.
 
