@@ -4,6 +4,8 @@ From https://github.com/rsp/scripts
 
 Usage: `externalip [METHOD]`
 
+Source: https://rawgit.com/rsp/scripts/master/externalip
+
 Get external IP address that is visible by servers that you connect to over Internet.
 
 Note: this is not necessarily the same IP as the one that is used by your computer's network interface
