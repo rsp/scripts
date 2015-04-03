@@ -2,6 +2,7 @@
 # Bash functions to display OK/ERROR and play sounds after commands finish.
 # Written for Ubuntu. Should work on any Linux after changing the paths.
 # They have to be sourced manually or in ~/.bashrc or ~/.profile
+# See: https://github.com/rsp/scripts/blob/master/ok-functions.md
 
 sound() {
   # plays sounds in sequence and waits for them to finish
