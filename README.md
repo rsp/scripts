@@ -17,6 +17,8 @@ Scripts
 ### `internalip`
 Usage: `internalip [TARGET]`
 
+Source: https://rawgit.com/rsp/scripts/master/internalip
+
 Get internal IP address used for outgoing Internet connections.
 
 TARGET is an IP address, `8.8.8.8` by default.
@@ -26,11 +28,22 @@ See [internalip.md](internalip.md) for more info.
 ### `externalip`
 Usage: `externalip [METHOD]`
 
+Source: https://rawgit.com/rsp/scripts/master/externalip
+
 Get external IP address that is visible by servers that you connect to over Internet.
 
 METHOD can be: dns (default), http, https, ftp, telnet.
 
 See [externalip.md](internalip.md) for more info.
+
+### `externalip-benchmark`
+Usage: `externalip-benchmark`
+
+Source: https://rawgit.com/rsp/scripts/master/externalip-benchmark
+
+Find what services providing external IP address via http and https are the fastest.
+
+See [externalip-benchmark.md](internalip.md) for more info.
 
 Installation
 ------------

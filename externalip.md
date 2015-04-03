@@ -13,5 +13,5 @@ METHOD can be: dns (default), http, https, ftp, telnet.
 
 The http and https methods are using the `whatismyip.akamai.com` service that showed the best performance in all my tests (from Warsaw, Poland).
 
-Use the `externalip-benchmark` script to find the best server for your location.
+Use the [externalip-benchmark](externalip-benchmark.md) script to find the best server for your location.
 
