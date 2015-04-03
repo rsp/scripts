@@ -10,8 +10,9 @@ Work in progress - more to come.
 Some of those scripts were written for
 [my answers on Stack Exchange](https://stackexchange.com/users/303952/rsp):
 
-* [Make a sound once process is complete](https://askubuntu.com/questions/277215/make-a-sound-once-process-is-complete/604116#604116)
-* [How can I get my external IP address in bash?](https://unix.stackexchange.com/questions/22615/how-can-i-get-my-external-ip-address-in-bash/194136#194136)
+* [Make a sound once process is complete](https://askubuntu.com/questions/277215/make-a-sound-once-process-is-complete/604116#604116) (on [Ask Ubuntu](https://askubuntu.com/users/11582/rsp))
+* [How can I get my external IP address in bash?](https://unix.stackexchange.com/questions/22615/how-can-i-get-my-external-ip-address-in-bash/194136#194136) (on [Unix & Linux](https://unix.stackexchange.com/users/23774/rsp))
+* [How do I find my internal ip address?](https://askubuntu.com/questions/430853/how-do-i-find-my-internal-ip-address/604691#604691) (on [Ask Ubuntu](https://askubuntu.com/users/11582/rsp))
 
 Some are just for my own conveniece. Maybe they would be useful to someone else.
 
