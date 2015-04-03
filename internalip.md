@@ -12,6 +12,7 @@ that would be used to connect to a given target.
 
 The TARGET is optional and by default it is `8.8.8.8`
 (which is the [Google's public DNS resolver](https://developers.google.com/speed/public-dns/docs/using)).
+It can be an IP address or a host name (if `gethostip` or `getent` are available on the system).
 
 Note: this is not necessarily the same IP as the public IP that you visible under while connecting to the Internet
 (for that use [externalip](externalip.md)).
