@@ -10,9 +10,35 @@ Work in progress - more to come.
 Some of those scripts were written for
 [my answers on Stack Exchange](https://stackexchange.com/users/303952/rsp):
 
+* [Make a sound once process is complete](https://askubuntu.com/questions/277215/make-a-sound-once-process-is-complete/604116#604116)
 * [How can I get my external IP address in bash?](https://unix.stackexchange.com/questions/22615/how-can-i-get-my-external-ip-address-in-bash/194136#194136)
 
 Some are just for my own conveniece. Maybe they would be useful to someone else.
+
+Functions
+---------
+### `ok-functions`
+Usage:
+```
+sn1
+sn2
+sn3
+ok
+oks
+```
+
+For example to hear when a long-running command finishes and to hear a different sound on success and on failure:
+
+Example with success:
+```
+ls / && ls /bin && ls /usr; oks
+```
+example with error:
+```
+ls / && ls /bim && ls /usr; oks
+```
+
+See [ok-functions.md](ok-functions.md) for more info.
 
 Scripts
 -------
