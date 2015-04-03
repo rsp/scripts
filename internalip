@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # get internal IP address
 # used for outgoing Internet connections
@@ -7,10 +7,13 @@
 resolve() {
 	(gethostip -d $1 || getent ahostsv4 $t | grep RAW | awk '{print $1; exit}') 2>/dev/null
 }
+noip() {
+	[ -n "$(echo $1 | tr -d '0-9.\n')" ]
+}
 
 [ -n "$1" ] && t=$1 || t='8.8.8.8'
 
-[ -n "${t//[0-9.]}" ] && t=$(resolve $t)
+noip $t && t=$(resolve $t)
 
 [ -n "$t" ] || { echo Cannot resolve domain $1 >&2; exit 1; }
 
