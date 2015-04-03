@@ -1,0 +1,49 @@
+
+# Bash functions to display OK/ERROR and play sounds after commands finish.
+# Written for Ubuntu. Should work on any Linux after changing the paths.
+# They have to be sourced manually or in ~/.bashrc or ~/.profile
+
+sound() {
+  # plays sounds in sequence and waits for them to finish
+  for s in $@; do
+    paplay $s
+  done
+}
+soundbg() {
+  # plays all sounds at the same time in the background
+  for s in $@; do
+    # you may need to change 0 to 1 or something else:
+    pacmd play-file $s 0 >/dev/null
+  done
+}
+sn1() {
+  sound /usr/share/sounds/ubuntu/stereo/dialog-information.ogg
+}
+sn2() {
+  sound /usr/share/sounds/freedesktop/stereo/complete.oga
+}
+sn3() {
+  sound /usr/share/sounds/freedesktop/stereo/suspend-error.oga
+}
+ok() {
+  # prints OK or ERROR and exit status of previous command
+  s=$?
+  if [[ $s = 0 ]]; then
+    echo OK
+  else
+    echo ERROR: $s
+  fi
+}
+oks() {
+  # like ok but with sounds
+  s=$?
+  sound_ok=/usr/share/sounds/ubuntu/stereo/dialog-information.ogg
+  sound_error=/usr/share/sounds/ubuntu/stereo/dialog-warning.ogg
+  if [[ $s = 0 ]]; then
+    echo OK
+    sound $sound_ok
+  else
+    echo ERROR: $s
+    sound $sound_error
+  fi
+}
