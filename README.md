@@ -42,6 +42,15 @@ See [ok-functions.md](ok-functions.md) for more info.
 
 Scripts
 -------
+### `auu`
+Usage: `sudo auu`
+
+Source: https://rawgit.com/rsp/scripts/master/auu
+
+Update and upgrade a Debian, Ubuntu or other APT-based Linux system.
+
+See [auu.md](auu.md) for more info.
+
 ### `internalip`
 Usage: `internalip [TARGET]`
 
