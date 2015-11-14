@@ -45,3 +45,9 @@ to print OK/ERROR but always play the same sound, etc.
 I posted those functions in the following answer on Ask Ubuntu:
 * [Make a sound once process is complete](https://askubuntu.com/questions/277215/make-a-sound-once-process-is-complete/604116#604116)
 
+They should work on any Linux distro after changing the paths to sounds.
+
+To find good sounds on your system try:
+```
+for i in /usr/share/sounds/*/stereo/*; do echo $i; paplay $i; sleep 1; done
+```
