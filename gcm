@@ -1,3 +1,8 @@
 #!/bin/sh
+
+# gcm - git commit message
+# see: https://github.com/rsp/scripts/blob/master/gcm.md
+
 m="$@"
 git commit -m "$m"
+
