@@ -118,9 +118,12 @@ See [externalip-benchmark.md](externalip-benchmark.md) for more info.
 Installation
 ------------
 Most of those scripts should be stand-alone and can be copied in any place.
+Those commands describes as functions need to be installed differently,
+see below.
 
+### Installing scripts
 My recommendation is to make a `~/bin` or `~/scripts` directory:
-```
+```sh
 mkdir ~/bin
 ```
 and put this in your `~/.bashrc` or `~/.profile`:
@@ -128,7 +131,7 @@ and put this in your `~/.bashrc` or `~/.profile`:
 [ -d "$HOME/bin" ] && PATH="$HOME/bin:$PATH"
 ```
 That way it's easy to put any script there:
-```
+```sh
 cd ~/bin
 wget https://rawgit.com/rsp/scripts/master/example
 less example # see what was downloaded
@@ -136,6 +139,23 @@ chmod a+x example
 ```
 And use it at will.
 Of course always see what was downloaded first.
+
+### Installing functions
+Those commands described as functions need to be sourced to work,
+either manually or in a file like `.profile`, `.bashrc` etc.
+
+They don't have to be in your PATH and they don't have to be executable.
+You can download them whenever you want, for example in your $HOME directory:
+```sh
+cd ~
+wget https://rawgit.com/rsp/scripts/master/example-functions
+```
+Now you source them with `.` (dot) or `source` command:
+```sh
+. example-functions
+```
+If you put the sourcing line in your `.profile` or `.bashrc` they will be
+available after all logins.
 
 Issues
 ------
