@@ -51,15 +51,6 @@ Runs: `git add file [file ...]`
 
 See [ga.md](ga.md) for more info.
 
-### `gpom`
-Usage: `gpom`
-
-Source: https://rawgit.com/rsp/scripts/master/gpom
-
-Runs: `git push origin master --tags`
-
-See [gpom.md](gpom.md) for more info.
-
 ### `gcm`
 Usage: `gcm your message` (no quoting needed)
 
@@ -71,6 +62,15 @@ Running: `gcm your message`
 is equivalent to: `git commit -m "your message"`
 
 See [gcm.md](gcm.md) for more info.
+
+### `gpom`
+Usage: `gpom`
+
+Source: https://rawgit.com/rsp/scripts/master/gpom
+
+Runs: `git push origin master --tags`
+
+See [gpom.md](gpom.md) for more info.
 
 ### `auu`
 Usage: `sudo auu`
