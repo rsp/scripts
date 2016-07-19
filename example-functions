@@ -1,0 +1,10 @@
+
+# Example functions from https://github.com/rsp/scripts
+
+example1() {
+  echo example1 function from https://github.com/rsp/scripts
+}
+example2() {
+  echo example2 function from https://github.com/rsp/scripts
+}
+
