@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# gi - git add
+# see: https://github.com/rsp/scripts/blob/master/ga.md
+
+git add "$@"
+
