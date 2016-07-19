@@ -8,5 +8,9 @@ Source: https://rawgit.com/rsp/scripts/master/gcm
 
 Runs: `git commit message -m ...`
 
-The commit message are all command line arguments.
+The commit message is composed from all command line arguments
+(you don't have to quote them).
+
+So running: `gcm your message`
+is equivalent to: `git commit -m "your message"`
 
