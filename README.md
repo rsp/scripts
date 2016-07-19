@@ -3,7 +3,9 @@ scripts
 https://github.com/rsp/scripts
 
 Random shell scripts for different tasks.
-Mostly for Linux.
+Mostly for Linux but I would like them to work on as many
+systems as possible - certainly on all POSIX systems.
+If anything doesn't work, please post an [issue](#issues).
 
 Work in progress - more to come.
 
@@ -134,6 +136,11 @@ chmod a+x example
 ```
 And use it at will.
 Of course always see what was downloaded first.
+
+Issues
+------
+For any bug reports or feature requests please
+[post an issue on GitHub](https://github.com/rsp/scripts/issues).
 
 Author
 ------
