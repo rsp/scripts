@@ -51,6 +51,18 @@ Runs: `git push origin master --tags`
 
 See [gpom.md](gpom.md) for more info.
 
+### `gcm`
+Usage: `gcm your message` (no quoting needed)
+
+Source: https://rawgit.com/rsp/scripts/master/gcm
+
+Runs: `git commit message -m ...`
+
+Running: `gcm your message`
+is equivalent to: `git commit -m "your message"`
+
+See [gcm.md](gcm.md) for more info.
+
 ### `auu`
 Usage: `sudo auu`
 
