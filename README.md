@@ -51,6 +51,15 @@ Runs: `git push origin master --tags`
 
 See [gpom.md](gpom.md) for more info.
 
+### `ga`
+Usage: `ga file [file ...]`
+
+Source: https://rawgit.com/rsp/scripts/master/ga
+
+Runs: `git add file [file ...]`
+
+See [ga.md](ga.md) for more info.
+
 ### `gcm`
 Usage: `gcm your message` (no quoting needed)
 
