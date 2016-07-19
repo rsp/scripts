@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# gpom - git push origin master
+# see: https://github.com/rsp/scripts/blob/master/gpom.md
+
+git push origin master --tags
+
