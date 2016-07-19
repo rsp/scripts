@@ -42,6 +42,15 @@ See [ok-functions.md](ok-functions.md) for more info.
 
 Scripts
 -------
+### `gpom`
+Usage: `gpom`
+
+Source: https://rawgit.com/rsp/scripts/master/gpom
+
+Runs: `git push origin master --tags`
+
+See [gpom.md](gpom.md) for more info.
+
 ### `auu`
 Usage: `sudo auu`
 
