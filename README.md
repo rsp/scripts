@@ -2,12 +2,19 @@ scripts
 =======
 https://github.com/rsp/scripts
 
-Random shell scripts for different tasks.
+Random shell scripts for different tasks
+written by Rafał Pocztarski.
+
 Mostly for Linux but I would like them to work on as many
 systems as possible - certainly on all POSIX systems.
 If anything doesn't work, please post an [issue](#issues).
 
-Work in progress - more to come.
+Work in progress - more to come. See:
+
+* [Installation](#installation)
+* [Issues](#issues)
+* [Author](#author)
+* [License](#license)
 
 Some of those scripts were written for
 [my answers on Stack Exchange](https://stackexchange.com/users/303952/rsp):
@@ -149,6 +156,7 @@ You can download them whenever you want, for example in your $HOME directory:
 ```sh
 cd ~
 wget https://rawgit.com/rsp/scripts/master/example-functions
+less example-functions # see what was downloaded
 ```
 Now you source them with `.` (dot) or `source` command:
 ```sh
