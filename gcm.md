@@ -2,7 +2,7 @@ gcm
 ===
 From https://github.com/rsp/scripts
 
-Usage: `gcm`
+Usage: `gcm your message` (no quoting of the commit message needed)
 
 Source: https://rawgit.com/rsp/scripts/master/gcm
 
