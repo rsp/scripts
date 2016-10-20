@@ -1,0 +1,7 @@
+#!/bin/sh
+
+# gpomn - git push origin master (no tags)
+# see: https://github.com/rsp/scripts/blob/master/gpomn.md
+
+git push origin master
+
