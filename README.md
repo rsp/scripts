@@ -1,4 +1,4 @@
-scripts<br/>[<img alt="Follow on Twitter" src="https://img.shields.io/github/stars/rsp/scripts.svg?style=social&amp;label=Star" height="40">](#)
+scripts [<img alt="Follow on Twitter" src="https://img.shields.io/github/stars/rsp/scripts.svg?style=social&amp;label=Star" height="40">](#)
 =======
 https://github.com/rsp/scripts
 
