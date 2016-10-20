@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# gpod - git push origin develop (default)
+# see: https://github.com/rsp/scripts/blob/master/gpod.md
+
+# remove --tags if you don't want tags being pushed by default:
+git push origin develop --tags
+
