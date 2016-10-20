@@ -19,11 +19,11 @@ Some other tools and commands:
 
 * [`internalip`](#internalip) - get your internal IP address
 * [`externalip`](#externalip) - get your external IP address
-* [`sound`](#sound) - play a sound a wait to finish
-* [`soundbg`](#soundbg) - play a sound in background
-* [`sn1`](#sn1)/[`sn2`](#sn2)/[`sn3`](#sn3) - good sounds for notifications
-* [`ok`](#ok) - prints OK/ERROR if the last command succeeded/failed
-* [`oks`](#oks) - like `ok` but with different sounds played on success/failure
+* [`sound`](#ok-functions) - play a sound a wait to finish
+* [`soundbg`](#ok-functions) - play a sound in background
+* [`sn1`](#ok-functions)/[`sn2`](#ok-functions)/[`sn3`](#ok-functions) - good sounds for notifications
+* [`ok`](#ok-functions) - prints OK/ERROR if the last command succeeded/failed
+* [`oks`](#ok-functions) - like `ok` but with different sounds played on success/failure
 
 Details
 -------
