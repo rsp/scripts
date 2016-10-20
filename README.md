@@ -1,4 +1,4 @@
-scripts
+scripts<br/>[<img alt="Follow on Twitter" src="https://img.shields.io/github/stars/rsp/scripts.svg?style=social&amp;label=Star" height="40">](#)
 =======
 https://github.com/rsp/scripts
 
@@ -18,8 +18,6 @@ https://github.com/rsp/scripts
 [stackoverflow-url]: https://stackoverflow.com/users/613198/rsp
 [stackexchange-url]: https://stackexchange.com/users/303952/rsp
 [stackexchange-img]: https://stackexchange.com/users/flair/303952.png
-
-[<img alt="Follow on Twitter" src="https://img.shields.io/github/stars/badges/shields.svg?style=social&amp;label=Star" height="40">](#)
 
 Random shell scripts for different tasks
 written by [Rafał Pocztarski](https://pocztarski.com/) for answers on Stack Overflow:
