@@ -2,8 +2,31 @@ scripts
 =======
 https://github.com/rsp/scripts
 
+[github-url]: https://github.com/rsp/scripts
+[readme-url]: https://github.com/rsp/scripts#readme
+[issues-main-url]: https://github.com/rsp/nodekeeper/issues
+[issues-ver-url]: https://github.com/rsp/scripts/issues
+[license-url]: https://github.com/rsp/scripts/blob/master/LICENSE.md
+[travis-url]: https://travis-ci.org/rsp/scripts
+[travis-img]: https://travis-ci.org/rsp/scripts.svg?branch=master
+[snyk-url]: https://snyk.io/test/github/rsp/scripts
+[snyk-img]: https://snyk.io/test/github/rsp/scripts/badge.svg
+[github-follow-url]: https://github.com/rsp
+[github-follow-img]: https://img.shields.io/github/followers/rsp.svg?style=social&label=Follow
+[twitter-follow-url]: https://twitter.com/intent/follow?screen_name=pocztarski
+[twitter-follow-img]: https://img.shields.io/twitter/follow/pocztarski.svg?style=social&label=Follow
+[stackoverflow-url]: https://stackoverflow.com/users/613198/rsp
+[stackexchange-url]: https://stackexchange.com/users/303952/rsp
+[stackexchange-img]: https://stackexchange.com/users/flair/303952.png
+
 Random shell scripts for different tasks
-written by [Rafał Pocztarski](https://pocztarski.com/).
+written by [Rafał Pocztarski](https://pocztarski.com/)
+[![Follow on GitHub][github-follow-img]][github-follow-url]
+[![Follow on Twitter][twitter-follow-img]][twitter-follow-url]
+
+Some of those scripts were written for answers on Stack Overflow:
+<br/>
+[![Follow on Stack Exchange][stackexchange-img]][stackoverflow-url]
 
 Examples
 --------
@@ -243,7 +266,12 @@ For any bug reports or feature requests please
 
 Author
 ------
-Rafał Pocztarski - https://github.com/rsp
+[**Rafał Pocztarski**](https://pocztarski.com/)
+<br/>
+[![Follow on GitHub][github-follow-img]][github-follow-url]
+[![Follow on Twitter][twitter-follow-img]][twitter-follow-url]
+<br/>
+[![Follow on Stack Exchange][stackexchange-img]][stackoverflow-url]
 
 License
 -------
