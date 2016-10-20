@@ -21,8 +21,8 @@ https://github.com/rsp/scripts
 
 Random shell scripts for different tasks
 written by [Rafał Pocztarski](https://pocztarski.com/)
-[![Follow on GitHub][github-follow-img]][github-follow-url]
-[![Follow on Twitter][twitter-follow-img]][twitter-follow-url]
+[<img alt="Follow on GitHub" src="https://img.shields.io/github/followers/rsp.svg?style=social&amp;label=Follow" height="30">][github-follow-url]
+[<img alt="Follow on Twitter" src="https://img.shields.io/twitter/follow/pocztarski.svg?style=social&amp;label=Follow" height="30">][twitter-follow-url]
 
 Some of those scripts were written for answers on Stack Overflow:
 <br/>
