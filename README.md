@@ -23,7 +23,6 @@ Random shell scripts for different tasks
 written by [Rafał Pocztarski](https://pocztarski.com/) for answers on Stack Overflow:
 <br/>
 [![Follow on Stack Exchange][stackexchange-img]][stackoverflow-url]
-<br/>
 [<img alt="Follow on GitHub" src="https://img.shields.io/github/followers/rsp.svg?style=social&amp;label=Follow" height="30">][github-follow-url]
 [<img alt="Follow on Twitter" src="https://img.shields.io/twitter/follow/pocztarski.svg?style=social&amp;label=Follow" height="30">][twitter-follow-url]
 
