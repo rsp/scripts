@@ -5,6 +5,8 @@ https://github.com/rsp/scripts
 Random shell scripts for different tasks
 written by Rafał Pocztarski.
 
+* [
+
 Mostly for Linux but I would like them to work on as many
 systems as possible - certainly on all POSIX systems.
 If anything doesn't work, please post an [issue](#issues).
@@ -69,8 +71,55 @@ Runs: `git commit message -m ...`
 
 Running: `gcm your message`
 is equivalent to: `git commit -m "your message"`
+(note the automatic quoting)
 
 See [gcm.md](gcm.md) for more info.
+
+### `gpodn`
+Usage: `gpodn`
+
+Source: https://rawgit.com/rsp/scripts/master/gpodn
+
+Runs: `git push origin develop` (no tags)
+
+See [gpodn.md](gpodn.md) for more info.
+
+### `gpodt`
+Usage: `gpodt`
+
+Source: https://rawgit.com/rsp/scripts/master/gpodt
+
+Runs: `git push origin develop --tags`
+
+See [gpodt.md](gpodt.md) for more info.
+
+### `gpod`
+Usage: `gpod`
+
+Source: https://rawgit.com/rsp/scripts/master/gpod
+
+Runs: `git push origin develop --tags`
+(by default it's the same as `gpodt`)
+
+See [gpod.md](gpod.md) for more info.
+
+### `gpomn`
+Usage: `gpomn`
+
+Source: https://rawgit.com/rsp/scripts/master/gpomn
+
+Runs: `git push origin master` (no tags)
+
+See [gpomn.md](gpomn.md) for more info.
+
+### `gpomt`
+Usage: `gpomt`
+
+Source: https://rawgit.com/rsp/scripts/master/gpomt
+
+Runs: `git push origin master --tags`
+
+See [gpomt.md](gpomt.md) for more info.
 
 ### `gpom`
 Usage: `gpom`
@@ -78,6 +127,7 @@ Usage: `gpom`
 Source: https://rawgit.com/rsp/scripts/master/gpom
 
 Runs: `git push origin master --tags`
+(by default it's the same as `gpomt`)
 
 See [gpom.md](gpom.md) for more info.
 
