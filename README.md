@@ -3,11 +3,32 @@ scripts
 https://github.com/rsp/scripts
 
 Random shell scripts for different tasks
-written by Rafał Pocztarski.
+written by [Rafał Pocztarski](https://pocztarski.com/).
 
-* [
+Examples
+--------
+Some common command shortcuts for Git et al.:
 
-Mostly for Linux but I would like them to work on as many
+* [`auu`](#auu) - apt-get update and upgrade for Debian or Ubuntu
+* [`ga`](#ga) - git add
+* [`gcm`](#gcm) - git commit with message quoted automatically
+* [`gpod`](#gpod) - git push origin develop (with/without tags)
+* [`gpom`](#gpom) - git push origin master (with/without tags)
+
+Some other tools and commands:
+
+* [`internalip`](#internalip) - get your internal IP address
+* [`externalip`](#externalip) - get your external IP address
+* [`sound`](#sound) - play a sound a wait to finish
+* [`soundbg`](#soundbg) - play a sound in background
+* [`sn1`](#sn1)/[`sn2`](#sn2)/[`sn3`](#sn3) - good sounds for notifications
+* [`ok`](#ok) - prints OK/ERROR if the last command succeeded/failed
+* [`oks`](#oks) - like `ok` but with different sounds played on success/failure
+
+Details
+-------
+Those commands are
+mostly for Linux but I would like them to work on as many
 systems as possible - certainly on all POSIX systems.
 If anything doesn't work, please post an [issue](#issues).
 
