@@ -1,7 +1,8 @@
 #!/bin/sh
 
-# gpom - git push origin master
+# gpom - git push origin master (default)
 # see: https://github.com/rsp/scripts/blob/master/gpom.md
 
+# remove --tags if you don't want tags being pushed by default:
 git push origin master --tags
 
