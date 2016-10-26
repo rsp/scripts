@@ -1,7 +1,5 @@
-scripts [![License][license-img]][license-url] [![GitHub Stars][stars-img]][stars-url] [![GitHub Forks][forks-img]][forks-url] [![GitHub Watchers][watchers-img]][watchers-url]
+scripts [![License][license-img]][license-url] [![GitHub Stars][stars-img]][stars-url] [![GitHub Forks][forks-img]][forks-url] [![GitHub Watchers][watchers-img]][watchers-url] [![Tweet][tweet-img]][tweet-url]
 =======
-https://github.com/rsp/scripts
-
 [github-url]: https://github.com/rsp/scripts
 [readme-url]: https://github.com/rsp/scripts#readme
 [issues-url]: https://github.com/rsp/scripts/issues
@@ -11,6 +9,8 @@ https://github.com/rsp/scripts
 [stars-img]: https://img.shields.io/github/stars/rsp/scripts.svg?style=social&amp;label=Stars
 [forks-img]: https://img.shields.io/github/forks/rsp/scripts.svg?style=social&amp;label=Forks
 [watchers-img]: https://img.shields.io/github/watchers/rsp/scripts.svg?style=social&amp;label=Watchers
+[tweet-img]: https://img.shields.io/twitter/url/https/github.com/rsp/scripts.svg?style=social
+[tweet-url]: https://twitter.com/intent/tweet?text=Shell+scripts+by+@pocztarski:&url=https%3A%2F%2Fgithub.com%2Frsp%2Fscripts
 [license-url]: https://github.com/rsp/scripts/blob/master/LICENSE.md
 [license-img]: https://img.shields.io/github/license/rsp/scripts.svg
 [travis-url]: https://travis-ci.org/rsp/scripts
@@ -28,6 +28,8 @@ https://github.com/rsp/scripts
 by [Rafał Pocztarski](https://pocztarski.com/)
 [![Follow on GitHub][github-follow-img]][github-follow-url]
 [![Follow on Twitter][twitter-follow-img]][twitter-follow-url]
+
+https://github.com/rsp/scripts
 
 Random shell scripts for different tasks,
 written mostly for answers on Stack Overflow:
