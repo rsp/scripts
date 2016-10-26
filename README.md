@@ -8,6 +8,9 @@ https://github.com/rsp/scripts
 [stars-url]: https://github.com/rsp/scripts/stargazers
 [watchers-url]: https://github.com/rsp/scripts/watchers
 [forks-url]: https://github.com/rsp/scripts/network/members
+[stars-img]: https://img.shields.io/github/stars/rsp/scripts.svg?style=social&amp;label=Stars
+[forks-img]: https://img.shields.io/github/forks/rsp/scripts.svg?style=social&amp;label=Forks
+[watchers-img]: https://img.shields.io/github/watchers/rsp/scripts.svg?style=social&amp;label=Watchers
 [license-url]: https://github.com/rsp/scripts/blob/master/LICENSE.md
 [license-img]: https://img.shields.io/github/license/rsp/scripts.svg
 [travis-url]: https://travis-ci.org/rsp/scripts
