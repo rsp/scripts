@@ -1,4 +1,4 @@
-scripts [<img alt="License" src="https://img.shields.io/github/license/rsp/scripts.svg" height="30">][license-url] [<img alt="GitHub Stars" src="https://img.shields.io/github/stars/rsp/scripts.svg?style=social&amp;label=Stars" height="30">][stars-url] [<img alt="GitHub Forks" src="https://img.shields.io/github/forks/rsp/scripts.svg?style=social&amp;label=Forks" height="30">][forks-url] [<img alt="GitHub Watchers" src="https://img.shields.io/github/watchers/rsp/scripts.svg?style=social&amp;label=Watchers" height="30">][watchers-url]
+scripts [![License][license-img][license-url] [![GitHub Stars][stars-img]][stars-url] [![GitHub Forks][forks-img]][forks-url] [![GitHub Watchers][watchers-img]][watchers-url]
 =======
 https://github.com/rsp/scripts
 
@@ -22,12 +22,14 @@ https://github.com/rsp/scripts
 [stackexchange-url]: https://stackexchange.com/users/303952/rsp
 [stackexchange-img]: https://stackexchange.com/users/flair/303952.png
 
-Random shell scripts for different tasks
-written by [Rafał Pocztarski](https://pocztarski.com/) for answers on Stack Overflow:
+by [Rafał Pocztarski](https://pocztarski.com/)
+[![Follow on GitHub][github-follow-img]][github-follow-url]
+[![Follow on Twitter][twitter-follow-img]][twitter-follow-url]
+
+Random shell scripts for different tasks,
+written mostly for answers on Stack Overflow:
 <br/>
 [![Follow on Stack Exchange][stackexchange-img]][stackoverflow-url]
-[<img alt="Follow on GitHub" src="https://img.shields.io/github/followers/rsp.svg?style=social&amp;label=Follow" height="30">][github-follow-url]
-[<img alt="Follow on Twitter" src="https://img.shields.io/twitter/follow/pocztarski.svg?style=social&amp;label=Follow" height="30">][twitter-follow-url]
 
 Examples
 --------
