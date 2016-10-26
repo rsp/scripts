@@ -1,11 +1,13 @@
-scripts [<img alt="License" src="https://img.shields.io/github/license/rsp/scripts.svg" height="30">][license-url] [<img alt="GitHub Stars" src="https://img.shields.io/github/stars/rsp/scripts.svg?style=social&amp;label=Stars" height="30">](#) [<img alt="GitHub Forks" src="https://img.shields.io/github/forks/rsp/scripts.svg?style=social&amp;label=Forks" height="30">](#) [<img alt="GitHub Watchers" src="https://img.shields.io/github/watchers/rsp/scripts.svg?style=social&amp;label=Watchers" height="30">](#)
+scripts [<img alt="License" src="https://img.shields.io/github/license/rsp/scripts.svg" height="30">][license-url] [<img alt="GitHub Stars" src="https://img.shields.io/github/stars/rsp/scripts.svg?style=social&amp;label=Stars" height="30">][stars-url] [<img alt="GitHub Forks" src="https://img.shields.io/github/forks/rsp/scripts.svg?style=social&amp;label=Forks" height="30">][forks-url] [<img alt="GitHub Watchers" src="https://img.shields.io/github/watchers/rsp/scripts.svg?style=social&amp;label=Watchers" height="30">][watchers-url]
 =======
 https://github.com/rsp/scripts
 
 [github-url]: https://github.com/rsp/scripts
 [readme-url]: https://github.com/rsp/scripts#readme
-[issues-main-url]: https://github.com/rsp/nodekeeper/issues
-[issues-ver-url]: https://github.com/rsp/scripts/issues
+[issues-url]: https://github.com/rsp/scripts/issues
+[stars-url]: https://github.com/rsp/scripts/stargazers
+[watchers-url]: https://github.com/rsp/scripts/watchers
+[forks-url]: https://github.com/rsp/scripts/network/members
 [license-url]: https://github.com/rsp/scripts/blob/master/LICENSE.md
 [license-img]: https://img.shields.io/github/license/rsp/scripts.svg
 [travis-url]: https://travis-ci.org/rsp/scripts
@@ -261,7 +263,7 @@ available after all logins.
 Issues
 ------
 For any bug reports or feature requests please
-[post an issue on GitHub](https://github.com/rsp/scripts/issues).
+[post an issue on GitHub][issues-url].
 
 Author
 ------
