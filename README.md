@@ -1,4 +1,4 @@
-scripts [<img alt="License" https://img.shields.io/github/license/rsp/scripts.svg" height="30">][license-url] [<img alt="GitHub Stars" src="https://img.shields.io/github/stars/rsp/scripts.svg?style=social&amp;label=Stars" height="30">](#) [<img alt="GitHub Forks" src="https://img.shields.io/github/forks/rsp/scripts.svg?style=social&amp;label=Forks" height="30">](#) [<img alt="GitHub Watchers" src="https://img.shields.io/github/watchers/rsp/scripts.svg?style=social&amp;label=Watchers" height="30">](#)
+scripts [<img alt="License" src="https://img.shields.io/github/license/rsp/scripts.svg" height="30">][license-url] [<img alt="GitHub Stars" src="https://img.shields.io/github/stars/rsp/scripts.svg?style=social&amp;label=Stars" height="30">](#) [<img alt="GitHub Forks" src="https://img.shields.io/github/forks/rsp/scripts.svg?style=social&amp;label=Forks" height="30">](#) [<img alt="GitHub Watchers" src="https://img.shields.io/github/watchers/rsp/scripts.svg?style=social&amp;label=Watchers" height="30">](#)
 =======
 https://github.com/rsp/scripts
 
