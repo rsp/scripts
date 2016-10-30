@@ -10,7 +10,7 @@ scripts [![License][license-img]][license-url] [![GitHub Stars][stars-img]][star
 [forks-img]: https://img.shields.io/github/forks/rsp/scripts.svg?style=social&amp;label=Forks
 [watchers-img]: https://img.shields.io/github/watchers/rsp/scripts.svg?style=social&amp;label=Watchers
 [tweet-img]: https://img.shields.io/twitter/url/https/github.com/rsp/scripts.svg?style=social
-[tweet-url]: https://twitter.com/intent/tweet?text=Shell+scripts+by+@pocztarski:&url=https%3A%2F%2Fgithub.com%2Frsp%2Fscripts
+[tweet-url]: https://twitter.com/intent/tweet?text=Unix+and+Linux+shell+scripts+by+@pocztarski:&url=https%3A%2F%2Fgithub.com%2Frsp%2Fscripts
 [license-url]: https://github.com/rsp/scripts/blob/master/LICENSE.md
 [license-img]: https://img.shields.io/github/license/rsp/scripts.svg
 [travis-url]: https://travis-ci.org/rsp/scripts
