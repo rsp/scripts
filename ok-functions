@@ -17,6 +17,44 @@ soundbg() {
     pacmd play-file $s 0 >/dev/null
   done
 }
+soundloop() {
+  # soundloop file
+  # plays a sound in a loop
+  set +m
+  a=`date +%s`
+  { paplay $1 & } 2>/dev/null
+  wait
+  b=`date +%s`
+  d=$(($b-$a))
+  [ $d -eq 0 ] && d=1
+  while :; do
+    pacmd play-file $1 0 >/dev/null
+    sleep $d
+  done
+}
+soundloopm() {
+  # soundloop file n
+  # plays a sound in a loop in intervals less than sound length by n seconds
+  set +m
+  a=`date +%s`
+  { paplay $1 & } 2>/dev/null
+  wait
+  b=`date +%s`
+  d=$(($b-$a-$n))
+  [ $d -eq 0 ] && d=1
+  while :; do
+    pacmd play-file $1 0 >/dev/null
+    sleep $d
+  done
+}
+soundloops() {
+  # soundloops file n
+  # plays a sound in a loop every n seconds
+  while :; do
+    soundbg $1
+    sleep $2
+  done
+}
 sn1() {
   sound /usr/share/sounds/ubuntu/stereo/dialog-information.ogg
 }
@@ -25,6 +63,9 @@ sn2() {
 }
 sn3() {
   sound /usr/share/sounds/freedesktop/stereo/suspend-error.oga
+}
+loop1() {
+  soundloop /usr/share/sounds/ubuntu/stereo/desktop-login.ogg
 }
 ok() {
   # prints OK or ERROR and exit status of previous command
