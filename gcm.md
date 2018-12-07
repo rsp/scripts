@@ -4,7 +4,7 @@ From https://github.com/rsp/scripts
 
 Usage: `gcm your message` (no quoting of the commit message needed)
 
-Source: https://rawgit.com/rsp/scripts/master/gcm
+Source: https://cdn.jsdelivr.net/gh/rsp/scripts/gcm
 
 Runs: `git commit message -m ...`
 

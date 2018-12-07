@@ -2,7 +2,7 @@ ok-functions
 ============
 From https://github.com/rsp/scripts
 
-Source: https://rawgit.com/rsp/scripts/master/ok-functions
+Source: https://cdn.jsdelivr.net/gh/rsp/scripts/ok-functions
 
 To use the functions first source it in Bash or in `~/.bashrc` or `~/.profile`
 ```

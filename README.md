@@ -108,7 +108,7 @@ Scripts
 ### `ga`
 Usage: `ga file [file ...]`
 
-Source: https://rawgit.com/rsp/scripts/master/ga
+Source: https://cdn.jsdelivr.net/gh/rsp/scripts/ga
 
 Runs: `git add file [file ...]`
 
@@ -117,7 +117,7 @@ See [ga.md](ga.md) for more info.
 ### `gcm`
 Usage: `gcm your message` (no quoting needed)
 
-Source: https://rawgit.com/rsp/scripts/master/gcm
+Source: https://cdn.jsdelivr.net/gh/rsp/scripts/gcm
 
 Runs: `git commit message -m ...`
 
@@ -130,7 +130,7 @@ See [gcm.md](gcm.md) for more info.
 ### `gpodn`
 Usage: `gpodn`
 
-Source: https://rawgit.com/rsp/scripts/master/gpodn
+Source: https://cdn.jsdelivr.net/gh/rsp/scripts/gpodn
 
 Runs: `git push origin develop` (no tags)
 
@@ -139,7 +139,7 @@ See [gpodn.md](gpodn.md) for more info.
 ### `gpodt`
 Usage: `gpodt`
 
-Source: https://rawgit.com/rsp/scripts/master/gpodt
+Source: https://cdn.jsdelivr.net/gh/rsp/scripts/gpodt
 
 Runs: `git push origin develop --tags`
 
@@ -148,7 +148,7 @@ See [gpodt.md](gpodt.md) for more info.
 ### `gpod`
 Usage: `gpod`
 
-Source: https://rawgit.com/rsp/scripts/master/gpod
+Source: https://cdn.jsdelivr.net/gh/rsp/scripts/gpod
 
 Runs: `git push origin develop --tags`
 (by default it's the same as `gpodt`)
@@ -158,7 +158,7 @@ See [gpod.md](gpod.md) for more info.
 ### `gpomn`
 Usage: `gpomn`
 
-Source: https://rawgit.com/rsp/scripts/master/gpomn
+Source: https://cdn.jsdelivr.net/gh/rsp/scripts/gpomn
 
 Runs: `git push origin master` (no tags)
 
@@ -167,7 +167,7 @@ See [gpomn.md](gpomn.md) for more info.
 ### `gpomt`
 Usage: `gpomt`
 
-Source: https://rawgit.com/rsp/scripts/master/gpomt
+Source: https://cdn.jsdelivr.net/gh/rsp/scripts/gpomt
 
 Runs: `git push origin master --tags`
 
@@ -176,7 +176,7 @@ See [gpomt.md](gpomt.md) for more info.
 ### `gpom`
 Usage: `gpom`
 
-Source: https://rawgit.com/rsp/scripts/master/gpom
+Source: https://cdn.jsdelivr.net/gh/rsp/scripts/gpom
 
 Runs: `git push origin master --tags`
 (by default it's the same as `gpomt`)
@@ -186,7 +186,7 @@ See [gpom.md](gpom.md) for more info.
 ### `auu`
 Usage: `sudo auu`
 
-Source: https://rawgit.com/rsp/scripts/master/auu
+Source: https://cdn.jsdelivr.net/gh/rsp/scripts/auu
 
 Update and upgrade a Debian, Ubuntu or other APT-based Linux system.
 
@@ -195,7 +195,7 @@ See [auu.md](auu.md) for more info.
 ### `internalip`
 Usage: `internalip [TARGET]`
 
-Source: https://rawgit.com/rsp/scripts/master/internalip
+Source: https://cdn.jsdelivr.net/gh/rsp/scripts/internalip
 
 Get internal IP address used for outgoing Internet connections.
 
@@ -207,7 +207,7 @@ See [internalip.md](internalip.md) for more info.
 ### `externalip`
 Usage: `externalip [METHOD]`
 
-Source: https://rawgit.com/rsp/scripts/master/externalip
+Source: https://cdn.jsdelivr.net/gh/rsp/scripts/externalip
 
 Get external IP address that is visible by servers that you connect to over Internet.
 
@@ -218,7 +218,7 @@ See [externalip.md](externalip.md) for more info.
 ### `externalip-benchmark`
 Usage: `externalip-benchmark`
 
-Source: https://rawgit.com/rsp/scripts/master/externalip-benchmark
+Source: https://cdn.jsdelivr.net/gh/rsp/scripts/externalip-benchmark
 
 Find what services providing external IP address via http and https are the fastest.
 
@@ -242,7 +242,7 @@ and put this in your `~/.bashrc` or `~/.profile`:
 That way it's easy to put any script there:
 ```sh
 cd ~/bin
-wget https://rawgit.com/rsp/scripts/master/example
+wget https://cdn.jsdelivr.net/gh/rsp/scripts/example
 less example # see what was downloaded
 chmod a+x example
 ```
@@ -257,7 +257,7 @@ They don't have to be in your PATH and they don't have to be executable.
 You can download them whenever you want, for example in your $HOME directory:
 ```sh
 cd ~
-wget https://rawgit.com/rsp/scripts/master/example-functions
+wget https://cdn.jsdelivr.net/gh/rsp/scripts/example-functions
 less example-functions # see what was downloaded
 ```
 Now you source them with `.` (dot) or `source` command:

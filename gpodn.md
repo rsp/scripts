@@ -6,7 +6,7 @@ From https://github.com/rsp/scripts
 
 Usage: `gpodn`
 
-Source: https://rawgit.com/rsp/scripts/master/gpodn
+Source: https://cdn.jsdelivr.net/gh/rsp/scripts/gpodn
 
 Runs: `git push origin develop`
 

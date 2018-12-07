@@ -6,7 +6,7 @@ From https://github.com/rsp/scripts
 
 Usage: `gpod`
 
-Source: https://rawgit.com/rsp/scripts/master/gpod
+Source: https://cdn.jsdelivr.net/gh/rsp/scripts/gpod
 
 Runs: `git push origin develop --tags`
 

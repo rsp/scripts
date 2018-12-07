@@ -4,7 +4,7 @@ From https://github.com/rsp/scripts
 
 Usage: `sudo auu`
 
-Download: https://rawgit.com/rsp/scripts/master/auu
+Download: https://cdn.jsdelivr.net/gh/rsp/scripts/auu
 
 Update and upgrade a Debian, Ubuntu or other APT-based Linux system.
 
