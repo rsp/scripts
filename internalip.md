@@ -4,7 +4,7 @@ From https://github.com/rsp/scripts
 
 Usage: `internalip [TARGET]`
 
-Source: https://rawgit.com/rsp/scripts/master/internalip
+Source: https://cdn.jsdelivr.net/gh/rsp/scripts/internalip
 
 Get internal IP address used for outgoing Internet connections.
 This is an IP address of your computer's network interface

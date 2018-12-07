@@ -4,7 +4,7 @@ From https://github.com/rsp/scripts
 
 Usage: `ga file [file ...]`
 
-Source: https://rawgit.com/rsp/scripts/master/ga
+Source: https://cdn.jsdelivr.net/gh/rsp/scripts/ga
 
 Runs: `git add file [file ...]`
 

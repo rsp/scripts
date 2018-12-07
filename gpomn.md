@@ -6,7 +6,7 @@ From https://github.com/rsp/scripts
 
 Usage: `gpomn`
 
-Source: https://rawgit.com/rsp/scripts/master/gpomn
+Source: https://cdn.jsdelivr.net/gh/rsp/scripts/gpomn
 
 Runs: `git push origin master`
 

@@ -6,7 +6,7 @@ From https://github.com/rsp/scripts
 
 Usage: `gpomt`
 
-Source: https://rawgit.com/rsp/scripts/master/gpomt
+Source: https://cdn.jsdelivr.net/gh/rsp/scripts/gpomt
 
 Runs: `git push origin master --tags`
 

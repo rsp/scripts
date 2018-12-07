@@ -4,7 +4,7 @@ From https://github.com/rsp/scripts
 
 Usage: `externalip [METHOD]`
 
-Source: https://rawgit.com/rsp/scripts/master/externalip
+Source: https://cdn.jsdelivr.net/gh/rsp/scripts/externalip
 
 Get external IP address that is visible by servers that you connect to over Internet.
 

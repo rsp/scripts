@@ -4,7 +4,7 @@ From https://github.com/rsp/scripts
 
 Usage: `externalip-benchmark`
 
-Source: https://rawgit.com/rsp/scripts/master/externalip-benchmark
+Source: https://cdn.jsdelivr.net/gh/rsp/scripts/externalip-benchmark
 
 Find what services providing external IP address via http and https are the fastest.
 
