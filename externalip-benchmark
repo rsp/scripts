@@ -21,7 +21,6 @@ read -d '' urls << 'END'
 //whatismyip.akamai.com/
 //wgetip.com/
 //ip.tyk.nu/
-//curlmyip.com/
 //corz.org/ip
 //bot.whatismyipaddress.com/
 //ipof.in/txt
