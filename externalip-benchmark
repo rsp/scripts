@@ -14,7 +14,6 @@
 read -d '' urls << 'END'
 //ifconfig.me/
 //icanhazip.com/
-//ip.appspot.com/
 //curlmyip.com/
 //ident.me/
 //tnx.nl/ip
@@ -30,6 +29,7 @@ read -d '' urls << 'END'
 //l2.io/ip
 //eth0.me/
 END
+
 
 pings=5
 interval=0.2
@@ -67,4 +67,3 @@ echo -e "$httpsl" | sort -n
 
 echo -e "\nBest average ping times:"
 echo -e "$pingl" | sort -n
-
