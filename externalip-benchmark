@@ -26,8 +26,15 @@ read -d '' urls << 'END'
 //ipof.in/txt
 //l2.io/ip
 //eth0.me/
+//echoip.de/
+//ipaddr.site/
+//ifconfig.co/
+//ifconfig.pro/
+//curlmyip.net/
+//ipinfo.io/ip
+//checkip.amazonaws.com/
+//canihazip.com/s
 END
-
 
 pings=5
 interval=0.2
