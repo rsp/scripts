@@ -24,7 +24,6 @@ read -d '' urls << 'END'
 //curlmyip.com/
 //corz.org/ip
 //bot.whatismyipaddress.com/
-//ifcfg.me/
 //ipof.in/txt
 //l2.io/ip
 //eth0.me/
