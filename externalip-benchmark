@@ -12,27 +12,26 @@
 # using only those that output IP only (with no need to parse output)
 
 read -d '' urls << 'END'
-//ifconfig.me/
-//icanhazip.com/
-//ident.me/
-//tnx.nl/ip
+//wgetip.com/
 //ipecho.net/plain
 //whatismyip.akamai.com/
-//wgetip.com/
+//icanhazip.com/
+//ifconfig.me/
+//ipinfo.io/ip
+//checkip.amazonaws.com/
+//ipaddr.site/
 //ip.tyk.nu/
 //corz.org/ip
+//echoip.de/
+//ident.me/
 //bot.whatismyipaddress.com/
-//ipof.in/txt
 //l2.io/ip
 //eth0.me/
-//echoip.de/
-//ipaddr.site/
 //ifconfig.co/
 //ifconfig.pro/
 //curlmyip.net/
-//ipinfo.io/ip
-//checkip.amazonaws.com/
 //canihazip.com/s
+//tnx.nl/ip
 END
 
 pings=5
