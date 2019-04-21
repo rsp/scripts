@@ -21,7 +21,6 @@ read -d '' urls << 'END'
 //checkip.amazonaws.com/
 //ipaddr.site/
 //ip.tyk.nu/
-//corz.org/ip
 //echoip.de/
 //ident.me/
 //bot.whatismyipaddress.com/
