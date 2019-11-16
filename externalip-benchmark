@@ -12,23 +12,25 @@
 # using only those that output IP only (with no need to parse output)
 
 read -d '' urls << 'END'
-//ifconfig.me/
-//icanhazip.com/
-//ip.appspot.com/
-//curlmyip.com/
-//ident.me/
-//tnx.nl/ip
+//wgetip.com/
 //ipecho.net/plain
 //whatismyip.akamai.com/
-//wgetip.com/
+//icanhazip.com/
+//ifconfig.me/
+//ipinfo.io/ip
+//checkip.amazonaws.com/
+//ipaddr.site/
 //ip.tyk.nu/
-//curlmyip.com/
-//corz.org/ip
+//echoip.de/
+//ident.me/
 //bot.whatismyipaddress.com/
-//ifcfg.me/
-//ipof.in/txt
 //l2.io/ip
 //eth0.me/
+//ifconfig.co/
+//ifconfig.pro/
+//curlmyip.net/
+//canihazip.com/s
+//tnx.nl/ip
 END
 
 pings=5
@@ -67,4 +69,3 @@ echo -e "$httpsl" | sort -n
 
 echo -e "\nBest average ping times:"
 echo -e "$pingl" | sort -n
-

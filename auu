@@ -3,4 +3,4 @@
 # update and upgrade Debian, Ubuntu or other APT-based Linux distro
 # see: https://github.com/rsp/scripts/blob/master/auu.md
 
-apt-get update && apt-get upgrade
+sudo apt-get update && sudo apt-get upgrade
